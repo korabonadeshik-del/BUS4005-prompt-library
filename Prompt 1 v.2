@@ -1,0 +1,86 @@
+You are a supply chain demand analyst at a medium-sized cosmetics FMCG company. Using only the sample data provided below for Q1 2026, prepare a clear, business-focused demand analysis for management. Compare regions and product categories to identify where demand is strongest, where it is weakening, where unusual spikes are visible, and which products are declining. Explain any patterns that may lead to replenishment risk, stock imbalance, or slow inventory response. Structure the response under these headings: Demand Overview, Key Regional Changes, Products Requiring Attention, and Recommended Next Actions. In Recommended Next Actions, include one immediate action for the next 7 days, one medium-term action for the next 30 days, and one coordination issue that must be addressed between sales and inventory teams. Keep the response concise, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Additional business context:
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget skincare products are often unavailable in low-sales regions.
+- A promotion in East increased premium skincare demand by 15%.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+openai logo
+Agent
+01 Apr, 22:22
+Copy
+Demand Overview
+Strongest demand is in Premium categories, especially Premium Skincare and Premium Makeup. Across regions, Premium Skincare is the volume leader (notably East 1,450 and North 1,200), with rising/rising sharply trends.
+Budget Makeup is broadly weakening: falling in North (420), South (360), West (320); only East is stable (430). This suggests structural softening rather than a local issue.
+East is the growth engine in Q1: Premium Skincare is rising sharply and amplified by a +15% promotion effect, with Premium Makeup also rising.
+Replenishment risk is concentrated in Premium Skincare (delays in North and East)—exactly where demand is strongest—creating risk of lost sales and poor service levels.
+Key Regional Changes
+East Region (highest momentum / spike)
+Premium Skincare 1,450 (rising sharply) is the standout; promotion-driven uplift increases risk of over/under-reacting once the promo effect normalizes.
+Premium Makeup 1,080 (rising) supports a broader premium uptrend, not a single-product anomaly.
+Risk: stockouts now (due to replenishment issues) and potential surplus later if promo uplift is treated as permanent demand.
+North Region (strong growth + supply constraint)
+Premium Skincare 1,200 (rising) and Premium Makeup 900 (rising) indicate robust premium demand.
+Budget Makeup 420 (falling) is a clear decline signal; avoid carrying excess.
+Risk: replenishment delays in Premium Skincare could shift demand to substitutes/competitors and distort future forecasts.
+South Region (softening in budget)
+Budget Skincare 520 (falling) and Budget Makeup 360 (falling) show weakening value-tier demand.
+Premium categories are stable (Skincare 980, Makeup 810), suggesting a “premium holds, budget erodes” pattern.
+West Region (volatility + decline in budget)
+Premium Skincare 870 (unstable) indicates forecasting difficulty and potential localized drivers (distribution inconsistency, competitive activity, or intermittent availability).
+Budget categories are falling (Skincare 470, Makeup 320), reinforcing the broader budget slowdown.
+Low-sales regional cluster (structurally low + availability issues)
+Very low premium volumes (Skincare 300, Makeup 250) and declining budget (Skincare 130, Makeup 80).
+Budget Skincare is “often unavailable,” meaning recorded demand likely understates true demand; however, persistent low volumes still warrant cautious replenishment to avoid dead stock.
+Products Requiring Attention
+Premium Skincare (highest priority)
+Demand is strongest and rising (especially East/North), but replenishment delays create immediate lost sales risk and potential channel dissatisfaction.
+Promo-driven spike in East (+15%) increases the chance of over-forecasting post-promo if not adjusted.
+Budget Makeup (declining category)
+Falling in 3 of 4 major regions; risk of overstock and slow-moving inventory, especially if prior buying was based on historical volume.
+Budget Skincare (availability-driven distortion)
+Falling in South/West and declining + often unavailable in low-sales cluster. The combination signals both real weakening and artificial suppression from stockouts, increasing the risk of misreading the category and misallocating supply.
+Premium Skincare in West (unstable)
+Volatility suggests risk of either stockouts (if demand spikes) or excess (if demand drops suddenly). Needs tighter monitoring and smaller, more frequent replenishment decisions.
+Recommended Next Actions
+Immediate (next 7 days):
+Expedite and re-prioritize Premium Skincare replenishment to East and North (where demand is rising and supply is delayed). Implement a temporary allocation rule: protect East/North service levels first, and reduce non-critical fills elsewhere until lead times normalize.
+Medium-term (next 30 days):
+Rebalance inventory and forecasts by separating “base demand” from “promo uplift” in East Premium Skincare (remove the 15% promo effect when setting forward demand) and reduce Budget Makeup replenishment in North/South/West to prevent buildup. Use a controlled drawdown plan (lower reorder quantities, targeted clearance only where needed).
+Sales–Inventory coordination issue to resolve:
+Eliminate the separate spreadsheet workflow causing slow stock decisions. Agree on a single shared demand/supply view (one file or system extract as an interim step) with weekly sign-off on: (1) promo assumptions (e.g., East +15%), (2) allocation priorities during shortages (Premium Skincare), and (3) category exit/slowdown actions (Budget Makeup). This will reduce latency that currently drives stock imbalance and missed replenishment windows.
