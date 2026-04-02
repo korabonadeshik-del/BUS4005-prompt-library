@@ -1,0 +1,137 @@
+You are a supply chain consultant advising a medium-sized cosmetics FMCG company. Use only the Q1 2026 sample data below and do not request any additional inputs. Prepare an executive supply chain recommendation and 90-day action roadmap that explains how the company should improve service performance, inventory responsiveness, supplier recovery, and cross-functional coordination. Analyse demand patterns, stock cover, delayed supply, regional availability, supplier performance, KPI results, and stock policy issues to identify the most important operational and strategic priorities. Pay special attention to premium product service risk in growth regions, budget product availability in low-sales regions, excess stock in declining categories, and the impact of fragmented decision-making between sales, inventory, and procurement. Prioritise the issues by urgency and likely business impact. Structure the response under these headings: Executive Summary, Priority Issues, 90-Day Action Plan, and Expected Business Impact. In the action plan, include one immediate action for the next 7 days, one medium-term action for the next 30 days, one strategic action for the next 90 days, one highest-priority recommendation with a short reason, and one governance issue requiring alignment between sales, inventory, and procurement teams. Keep the output professional, polished, practical, slightly technical, and still easy for senior management to understand.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Supplier status snapshot:
+- Supplier A (premium skincare): 300 units to East delayed by 7 days
+- Supplier A: North replenishment order not yet confirmed
+- Supplier B (budget skincare): service performance inconsistent in low-sales regions
+- Procurement team has not yet issued a formal escalation note
+
+KPI snapshot:
+- OTIF (On Time In Full): 91%
+- Service level: 92%
+- Forecast accuracy: 78%
+- Stockout rate: 8%
+- Inventory turns: 5.4
+- Excess inventory value: $120,000
+- Premium skincare fill rate in North and East: 84%
+- Budget skincare availability in low-sales regions: 68%
+
+Business and supply context:
+- Premium skincare is the highest-margin category.
+- Budget skincare is important for maintaining presence in low-sales regions.
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget makeup demand is declining in several regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+- Management wants stock rules to be more differentiated instead of treating all products the same.
+openai logo
+Agent
+02 Apr, 02:34
+Copy
+Executive Summary
+Q1-2026 data show that our premium skincare lines in the high-growth North and East regions are at immediate risk of stock-out (≤ 5 days cover, delayed inbound), while budget skincare is under-served in low-sales regions (68 % availability) and budget make-up is over-stocked (> 25 days cover, declining demand). Inventory and service KPIs are drifting: OTIF 91 %, service level 92 %, stock-out 8 %, excess stock $120 k. Root causes are (1) undifferentiated stock policies, (2) supplier recovery gaps, and (3) fragmented, spreadsheet-based decision making across Sales, Inventory Planning, and Procurement. The recommendations below rebalance service and inventory, improve responsiveness, and institutionalise a single, data-driven governance model.
+
+Priority Issues (ranked by urgency & business impact)
+
+Premium skincare supply risk in North & East (highest-margin category, rising demand, ≤ 5 days cover, delayed 300 units).
+Budget skincare availability in low-sales cluster (brand presence risk; supplier B service inconsistency; only 5 days cover).
+Excess budget make-up stock in all major regions (> 25 days cover; demand falling) tying up $120 k.
+Supplier A confirmation gaps & lack of escalation protocol (North order unconfirmed; East delay).
+Fragmented decision making and one-size-fits-all stock rules (Sales vs. Inventory vs. Procurement working in silos; forecast accuracy only 78 %).
+90-Day Action Plan
+
+Immediate (next 7 days)
+• Premium Skincare Containment: Activate expedited freight for East’s 300 delayed units and pull 80 units each from South & West to North via emergency inter-regional transfer. Issue a formal escalation notice to Supplier A with revised commit dates and penalty clauses.
+
+Medium Term (within 30 days)
+• Segmented Stock Policy Go-Live:
+– Classify SKUs by margin & demand volatility (e.g., Premium Skincare = A, Budget Make-up = C) and set differentiated safety-stock and reorder points.
+– Target service levels: Premium Skincare ≥ 97 %, Budget Make-up ≤ 88 %.
+– Rebalance inventory: return/markdown 15 % of slow-moving budget make-up; redeploy 200 units to low-sales cluster for tactical promo.
+
+Strategic (within 90 days)
+• Integrated S&OP Platform & Governance:
+– Deploy a cloud collaboration tool linking Sales, Demand Planning, and Procurement with a monthly consensus forecast cycle.
+– Introduce supplier scorecards (OTIF, lead-time variance) and dual-sourcing options for premium skincare.
+– Lift forecast accuracy from 78 % → 85 % and inventory turns from 5.4 → 6.5.
+
+Highest-Priority Recommendation
+Secure and stabilise premium skincare supply chain first—because every 1 % lost service in this category erodes more margin than 5 % lost in any budget line.
+
+Governance Issue Requiring Alignment
+Establish a cross-functional S&OP steering committee (Sales, Inventory Planning, Procurement) with a single owner for service-level targets and inventory budgets; this removes today’s spreadsheet silos and enables rapid, aligned decisions.
+
+Expected Business Impact (by end of Q2-2026)
+• Premium skincare fill rate North & East ↑ from 84 % → 97 % (≈ $280 k incremental gross margin).
+• Budget skincare availability in low-sales regions ↑ from 68 % → 92 % (brand presence maintained).
+• Reduction of budget make-up excess stock by 35 % (releases ≈ $42 k working capital).
+• OTIF ↑ to 95 %, forecast accuracy ↑ 7 pp, inventory turns ↑ 1.1, total excess inventory ↓ $70 k.
+• Single, disciplined S&OP process cuts decision latency from days to hours and embeds accountability across functions.
