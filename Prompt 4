@@ -1,0 +1,133 @@
+You are an operations coordinator supporting a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, prepare a clear, business-focused coordination brief for the sales and inventory teams. Summarise the most important demand, stock, and replenishment issues affecting the business, and explain what each team needs to do to improve product availability, reduce delay risk, and respond faster to regional demand changes. Structure the response under these headings: Current Situation, Key Cross-Functional Issues, Team Priorities, and Recommended Next Actions. In the final section, include one immediate action for the next 7 days, one medium-term action for the next 30 days, and one coordination problem that must be fixed between sales and inventory teams. Keep the response concise, polished, practical, and suitable for internal business use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Additional business context:
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget skincare products are often unavailable in low-sales regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+openai logo
+Agent
+02 Apr, 00:48
+Copy
+Current Situation (Q1 2026)
+Demand is shifting toward premium lines, especially in the East and North.
+
+Premium skincare: strongest growth signal (East rising sharply; North rising).
+Premium makeup: rising in East and North; stable elsewhere.
+Budget categories: broadly stable-to-falling (budget makeup falling in most regions; budget skincare falling in South/West and declining in low-sales cluster).
+Availability risk is concentrated in Premium Skincare (North + East) and Budget Skincare (low-sales cluster).
+
+North – Premium skincare: 180 units / 5 days cover / no incoming → imminent stockout risk while demand is rising.
+East – Premium skincare: 160 units / 4 days cover / 300 units delayed by 7 days → high risk of missed sales in the fastest-growing region.
+Low-sales cluster – Budget skincare: 40 units / 5 days cover / frequent stockouts → service level issue despite lower absolute volume.
+Potential overstock exists in budget makeup across several regions (e.g., North 32 days, South 30 days, West 34 days) while demand is falling—cash tied up and risk of aged inventory.
+
+Key Cross-Functional Issues
+Mismatch between demand growth and replenishment execution (Premium Skincare).
+Rising demand in East/North is not supported by inbound supply (North has none; East is delayed). This is the primary availability and revenue risk in Q1.
+
+Service-level gap in “low-sales” regions for Budget Skincare.
+Repeated stockouts suggest replenishment parameters (min/max, reorder points, cadence) are not fit for even modest baseline demand, or stock is being deprioritised in allocation.
+
+Slow reaction time due to disconnected tools (separate spreadsheets).
+Stock decisions, reallocation, and escalation are delayed because sales signals are not translating quickly into inventory moves and replenishment changes.
+
+Inventory not aligned to demand decline (Budget Makeup).
+High days cover with falling demand increases risk of stagnant stock and limits flexibility to protect premium availability.
+
+Team Priorities
+Sales Team Priorities
+Protect premium growth in East/North: Provide a single “top accounts / top doors” priority list so limited premium skincare can be allocated to highest-impact channels first.
+Short-cycle demand sensing: Weekly update on demand trend changes by region for premium skincare and premium makeup (particularly East, North, and volatile West).
+Plan demand shaping where stock is high: Support targeted promotions or assortment adjustments for budget makeup in regions with >30 days cover to reduce excess without eroding premium focus.
+Inventory Team Priorities
+Prevent premium skincare stockouts:
+Immediate mitigation for North (no inbound) and East (7-day delay) via expedited replenishment and/or inter-region transfers.
+Stabilise low-sales cluster budget skincare availability:
+Reset replenishment settings and ensure minimum presentation stock to stop recurring stockouts.
+Rebalance inventory where demand is falling:
+Reduce future replenishment of budget makeup and redeploy working capital/space toward premium lines.
+Recommended Next Actions
+Immediate (next 7 days)
+Execute an emergency premium skincare allocation + transfer plan for North and East.
+
+Inventory to identify transferable premium skincare from regions with higher cover (e.g., South/West where cover is 11–12 days) and initiate inter-region transfers to East first (sharp rise + 4 days cover + delay), then North (5 days cover, no inbound).
+Sales to provide priority customer/channel list in East and North within 48 hours to guide allocation and avoid fragmented shipments.
+Medium-term (next 30 days)
+Fix replenishment and policy settings for Premium Skincare and Low-sales Budget Skincare.
+
+Premium skincare: revise safety stock/reorder points in East and North to reflect rising demand and transit variability; add an escalation trigger for “<7 days cover with rising trend.”
+Low-sales cluster budget skincare: implement a minimum-stock rule and a tighter reorder cadence to eliminate frequent stockouts (service level issue that is avoidable with parameter tuning).
+Coordination problem that must be fixed (Sales + Inventory)
+Replace separate spreadsheets with a single shared weekly “Demand & Supply Control” file/dashboard and meeting rhythm.
+
+One version of truth covering: units sold (weekly), days cover, inbound status (including delays), transfer decisions, and regional demand trend notes.
+Standing 30-minute weekly cross-functional huddle to approve: (1) premium allocation, (2) replenishment overrides, (3) transfer actions, and (4) promo/demand-shaping plans for overstocked budget makeup.
