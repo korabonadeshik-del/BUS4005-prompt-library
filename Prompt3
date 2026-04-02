@@ -1,0 +1,142 @@
+You are a supply chain planning analyst working with a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, identify where stock should be reallocated across regions to reduce shortages and improve product availability. Compare demand, stock cover, and delayed supply to find which regions have excess stock and which regions need urgent support. Structure the response under these headings: Stock Reallocation Opportunities, Priority Regions, Key Products Requiring Action, and Recommended Next Actions. Keep the response clear, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Additional business context:
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget skincare products are often unavailable in low-sales regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+openai logo
+Agent
+01 Apr, 23:55
+Copy
+Stock Reallocation Opportunities
+
+Premium Skincare:
+
+East Region has only 4 days cover with 300 units delayed in transit, while North Region has only 5 days cover and no incoming stock.
+South and West Regions hold higher inventory (12 and 11 days cover respectively) with stable or unstable demand, indicating potential excess stock.
+Low-sales cluster has low stock but very low demand, so reallocation there is less urgent.
+Budget Skincare:
+
+West Region has 26 days cover, South 20 days, North 18 days—all relatively high with falling or stable demand.
+Low-sales cluster has only 5 days cover with frequent stockouts and declining demand, highlighting a critical shortage despite low demand.
+East Region has stable demand and good cover (22 days), so less immediate need.
+Premium Makeup:
+
+West and South Regions have 15 and 14 days cover respectively with stable demand.
+North and East Regions have only 10 and 9 days cover with rising demand trends.
+Low-sales cluster holds 10 days cover but low demand.
+Budget Makeup:
+
+West, North, and South Regions have large stock cover (32-34 days) despite falling or stable demand.
+East Region has 25 days cover with stable demand.
+Low-sales cluster has 20 days cover with declining demand, sufficient for current sales.
+Priority Regions
+
+East Region:
+
+Urgent replenishment needed for premium skincare (4 days cover + delayed stock).
+Premium makeup also requires support due to rising demand and low cover.
+North Region:
+
+Premium skincare critically low (5 days cover, no incoming stock).
+Premium makeup demand rising but cover limited (10 days).
+Budget makeup has excess stock (32 days cover) which may be reallocated.
+Low-sales Regional Cluster:
+
+Budget skincare shortages with only 5 days cover and frequent stockouts despite declining demand.
+Consider small reallocations to prevent losing customers.
+Key Products Requiring Action
+
+Premium Skincare: High priority in North and East due to rising demand and low cover combined with replenishment delays.
+Budget Skincare: Urgent support for low-sales cluster to prevent stockouts.
+Premium Makeup: Focus on North and East to match rising demand and limited stock cover.
+Recommended Next Actions
+
+Reallocate inventory:
+
+Transfer premium skincare stock from South and West to North and East to cover immediate shortages.
+Shift budget skincare from West, South, and North to low-sales cluster to reduce stockouts.
+Move premium makeup inventory from West and South to North and East to support growing demand.
+Accelerate delayed shipments:
+
+Prioritize resolution of the 300-unit delayed premium skincare shipment to East Region.
+Improve cross-team collaboration:
+
+Integrate sales and inventory data into a single platform to enable timely, data-driven stock decisions and reduce stock imbalances.
+Monitor demand trends closely:
+
+Regularly review rising demand areas (North and East) to preempt shortages.
+Adjust reallocation plans dynamically based on updated sales and inventory data.
+Consider gradual reduction of budget makeup stock in regions with falling demand:
+
+Avoid overstocking and improve working capital efficiency by reallocating excess budget makeup stock.
+This targeted reallocation and process improvement plan will reduce shortages in high-demand regions, better match inventory with demand trends, and enhance overall product availability across regions.
