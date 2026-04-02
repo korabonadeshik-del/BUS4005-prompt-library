@@ -1,0 +1,149 @@
+You are a supply chain planning analyst working with a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, classify the company’s products into stock priority groups based on demand strength, stock risk, and business importance. Identify which products need high service priority, which should be monitored normally, and which may need lower stock focus. Structure the response under these headings: Product Segmentation Summary, High-Priority Products, Medium-Priority Products, Low-Priority Products, and Recommended Next Actions. Keep the response clear, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Business and supply context:
+- Premium skincare is the highest-margin category.
+- Budget skincare is important for maintaining presence in low-sales regions.
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget makeup demand is declining in several regions.
+- Management wants stock rules to be more differentiated instead of treating all products the same.
+openai logo
+Agent
+02 Apr, 02:21
+Copy
+Product Segmentation Summary
+
+This segmentation classifies products based on demand strength and trends, stock risk (days cover and supply delays), and strategic business importance (margin and presence objectives).
+
+Demand Strength & Trend: High demand with rising trend indicates growth potential; stable or falling demand signals maintenance or decline.
+Stock Risk: Low days cover and supply delays increase risk.
+Business Importance: Premium skincare has highest margin; budget skincare supports presence in low-sales regions; budget makeup shows declining demand.
+High-Priority Products
+(High service priority – ensure availability and avoid stockouts)
+
+Premium Skincare (North, East, South, West Regions)
+
+High and rising demand (especially East with sharp rise), highest margin product.
+Low days cover in North (5 days, no incoming stock) and East (4 days on hand + 7-day delayed stock).
+Delays in replenishment in North and East increase stock risk.
+Priority: Immediate action to improve replenishment, increase safety stock.
+Premium Makeup (East, North Regions)
+
+Strong sales (1,080 East, 900 North), rising or stable demand.
+Moderate stock cover (9-10 days), risk of stockout if demand grows.
+Important margin contribution, requires close monitoring and replenishment focus.
+Medium-Priority Products
+(Normal monitoring – maintain steady availability, adjust stock levels as needed)
+
+Premium Skincare (West, Low-sales cluster)
+
+West: unstable demand, medium cover (11 days), moderate priority.
+Low-sales cluster: low demand but important for presence; moderate risk.
+Budget Skincare (North, South, East, West)
+Stable or falling demand, good cover (18-26 days), but important for presence in low-sales regions.
+Budget Makeup (East, South, West)
+Stable to falling demand, good inventory cover (25-34 days), low risk but declining trend warrants monitoring.
+Premium Makeup (South, West, Low-sales cluster)
+
+Stable or low demand, moderate cover (10-15 days), medium priority.
+Low-Priority Products
+(Lower stock focus – reduce inventory, manage decline, avoid overstocking)
+
+Budget Skincare (Low-sales cluster)
+
+Declining demand, low inventory cover, frequent stockouts.
+Important for presence but requires carefully balanced minimal stock.
+Budget Makeup (North, South, West, Low-sales cluster)
+
+Declining demand across all regions.
+High stock cover (up to 32-34 days) but demand falling.
+Recommend reducing stock levels to avoid obsolescence.
+Recommended Next Actions
+Increase replenishment priority for Premium Skincare in North and East
+
+Expedite delayed shipments, increase safety stock buffer.
+Review supplier lead times and logistics to avoid recurring delays.
+Maintain tight monitoring of Premium Makeup in high-demand regions (East, North)
+
+Adjust reorder points to align with rising/stable demand.
+Optimize inventory for Budget categories
+
+Reduce stock levels for Budget Makeup in all regions to avoid excess inventory.
+Carefully maintain minimum stock for Budget Skincare in low-sales clusters to support market presence without overstocking.
+Implement differentiated stock rules by segment
+
+High priority: shorter reorder cycles, higher safety stock.
+Medium priority: maintain current levels, monitor demand trends.
+Low priority: reduce stock, increase focus on demand-driven replenishment.
+Regularly review demand trends and supply performance
+
+Adjust segmentation quarterly based on updated sales and stock data to maintain alignment with business goals.
+This segmentation and action plan will improve service levels for key products, reduce excess stock for declining categories, and align inventory strategy with business priorities for Q1 2026 and beyond.
