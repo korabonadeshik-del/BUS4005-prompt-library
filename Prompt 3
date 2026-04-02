@@ -1,0 +1,110 @@
+You are a supply chain planning analyst working with a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, identify where stock should be reallocated across regions to reduce shortages and improve product availability. Compare demand, stock cover, and delayed supply to find which regions have excess stock and which regions need urgent support. Structure the response under these headings: Stock Reallocation Opportunities, Priority Regions, Key Products Requiring Action, and Recommended Next Actions. Keep the response clear, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Additional business context:
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget skincare products are often unavailable in low-sales regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+openai logo
+Agent
+01 Apr, 23:37
+Copy
+Stock Reallocation Opportunities
+
+Premium skincare
+• Ship 80 units from South (30 u) and West (50 u) to North today – brings North from 5 to ≈9 days cover.
+• Ship 60 units from South (20 u) and Low-sales cluster (40 u) to East – bridges the gap until the delayed 300 units arrive in 7 days.
+Budget skincare
+• Move 20 units from West to the Low-sales cluster – raises the cluster from 5 to ≈19 days cover and still leaves West with >22 days.
+Premium makeup
+• Transfer 25 units from West and 20 units from South to East – lifts East from 9 to ≈12 days cover.
+• Transfer 20 units from West to North – raises North from 10 to ≈12 days cover.
+Budget makeup
+• No urgent transfers required; all regions sit above 25 days cover against falling demand. Consider future price-off or marketing push to avoid ageing stock.
+Priority Regions (need stock quickly)
+
+North – Premium skincare is at the lowest cover (5 days) with rising demand; Premium makeup also tight.
+East – Premium skincare at 4 days cover and Premium makeup at 9 days; demand is rising sharply.
+Low-sales cluster – Chronic stock-outs on Budget skincare despite small absolute demand.
+Key Products Requiring Action
+
+Premium skincare – supply delays and demand acceleration in North & East.
+Premium makeup – tighter cover in North & East while demand trends upward.
+Budget skincare – persistent under-supply in low-sales cluster affecting service levels.
+Recommended Next Actions
+
+Approve the inter-regional transfers listed above and arrange same-day dispatch through the regional DC network.
+Expedite the 300 units of delayed Premium skincare in transit to East (switch to air if cost-viable).
+Set temporary inventory targets:
+• Premium lines: 12–14 days cover in growth regions, 8–10 days elsewhere.
+• Budget lines: 15–20 days cover across all regions.
+Implement a single shared planning sheet (or lightweight SCM tool) for sales & inventory teams to see real-time cover and approve future reallocations in <24 h.
+Marketing / Sales to prepare a Q2 promotion plan for Budget makeup to unwind excess stock (>30 days cover) before it reaches ageing thresholds
