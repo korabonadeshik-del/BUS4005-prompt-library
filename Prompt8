@@ -1,0 +1,104 @@
+You are a supply chain and regional planning analyst working with a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, analyse the low-sales regional cluster and identify the main product availability issues affecting performance. Focus on missing products, low stock cover, and possible stock misallocation from other regions. Structure the response under these headings: Regional Availability Summary, Key Problems, Business Impact, and Recommended Next Actions. Keep the response clear, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Additional business context:
+- Budget skincare products are often unavailable in low-sales regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+- Management wants to improve product availability in weaker regions without increasing unnecessary stock.
+openai logo
+Agent
+02 Apr, 02:12
+Copy
+Regional Availability Summary
+The low-sales regional cluster displays significantly lower sales volumes and demand trends across all product categories compared to other regions. Inventory levels reveal critical issues, especially for budget skincare, which suffers from very low stock on hand (40 units) and only 5 days cover, with frequent stockouts reported. Premium skincare inventory is also low (70 units) despite a 9-day cover. Other categories maintain modest inventory levels but sales remain depressed. In contrast, other regions maintain higher stock levels and better sales performance, with some regions (East, North) showing rising demand trends and stock delays indicating potential logistical challenges.
+
+Key Problems
+
+Missing and Insufficient Stock of Budget Skincare: The low-sales cluster has the lowest availability of budget skincare, a product already noted as frequently unavailable. This likely suppresses potential sales and customer retention in this category.
+Low Stock Cover on Premium Skincare: Although premium skincare demand is low here, the 9 days cover with only 70 units suggests understocking relative to potential demand recovery, especially given other regions’ rising trends.
+Stock Misallocation: Other regions hold disproportionately high inventory of budget skincare and makeup (e.g., North budget makeup with 500 units on hand and 32 days cover) while the low-sales cluster struggles with low stock, indicating possible misallocation of stock away from weaker regions.
+Inventory and Sales Data Disconnect: Separate spreadsheets for sales and inventory slow decision-making, contributing to stock imbalances and delayed replenishment in weak regions.
+Delayed Incoming Stock Elsewhere: East region’s 300 units of premium skincare delayed in transit could exacerbate regional shortages if not rerouted or expedited.
+Business Impact
+
+Lost Sales Opportunities: Frequent stockouts and low availability in key product lines (budget skincare) directly limit sales growth and customer satisfaction.
+Brand Weakness in Low-Sales Regions: Inadequate product availability undermines brand presence and market share, risking long-term decline.
+Inefficient Use of Working Capital: Overstock in strong regions ties up capital and increases holding costs, while weak regions remain understocked, lowering overall supply chain effectiveness.
+Slow Responsiveness: Disconnected data systems delay corrective actions, allowing problems to persist and worsening customer experience.
+Recommended Next Actions
+
+Rebalance Inventory Allocation: Shift budget skincare and makeup stock towards the low-sales cluster to reduce stockouts and improve availability, using sales data to optimize cover days between regions.
+Improve Data Integration: Develop a unified dashboard combining sales and inventory data to enable faster, data-driven replenishment decisions and reduce stock imbalances.
+Prioritize Budget Skincare Replenishment: Address persistent stockouts by increasing minimum stock thresholds and improving forecasting accuracy in the low-sales cluster.
+Monitor and Expedite Delayed Shipments: Track transit delays (e.g., East region’s premium skincare) and consider rerouting excess stock to low-sales regions to prevent shortages.
+Implement Regional Demand Reviews: Regularly review demand trends and inventory cover regionally to dynamically adjust stock allocations, focusing on supporting growth potential in weaker regions without increasing overall inventory.
+Cross-functional Collaboration: Foster closer coordination between sales and inventory teams to ensure aligned priorities and quicker resolution of stock issues.
+These measures will enhance product availability, particularly for budget skincare, enabling improved sales performance in the low-sales cluster while maintaining efficient inventory control company-wide.
