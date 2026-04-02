@@ -1,0 +1,173 @@
+You are a supply chain planning analyst at a medium-sized cosmetics FMCG company. Using only the sample data below for Q1 2026, prepare a clear, business-focused purchase order prioritisation analysis for management. Review demand patterns, stock cover, delayed supply, supplier lead times, and regional shortages to identify which products should be reordered first, which can wait, and where working capital should be protected. Explain the likely commercial and service consequences of delaying each reorder decision. Structure the response under these headings: Reorder Priority Summary, Products Requiring Immediate Reorder, Business Impact, and Recommended Next Actions. In the final section, include one immediate action for the next 7 days, one medium-term action for the next 30 days, and one coordination issue that must be addressed between procurement, sales, and inventory teams. Keep the response concise, polished, practical, and suitable for management use. Do not request more data.
+
+Sample business data:
+
+Time period:
+Q1 2026
+
+Sales and demand snapshot:
+
+North Region
+- Premium skincare: 1,200 units sold | Demand trend: rising
+- Budget skincare: 650 units sold | Demand trend: stable
+- Premium makeup: 900 units sold | Demand trend: rising
+- Budget makeup: 420 units sold | Demand trend: falling
+
+South Region
+- Premium skincare: 980 units sold | Demand trend: stable
+- Budget skincare: 520 units sold | Demand trend: falling
+- Premium makeup: 810 units sold | Demand trend: stable
+- Budget makeup: 360 units sold | Demand trend: falling
+
+East Region
+- Premium skincare: 1,450 units sold | Demand trend: rising sharply
+- Budget skincare: 700 units sold | Demand trend: stable
+- Premium makeup: 1,080 units sold | Demand trend: rising
+- Budget makeup: 430 units sold | Demand trend: stable
+
+West Region
+- Premium skincare: 870 units sold | Demand trend: unstable
+- Budget skincare: 470 units sold | Demand trend: falling
+- Premium makeup: 730 units sold | Demand trend: stable
+- Budget makeup: 320 units sold | Demand trend: falling
+
+Low-sales regional cluster
+- Premium skincare: 300 units sold | Demand trend: low
+- Budget skincare: 130 units sold | Demand trend: declining
+- Premium makeup: 250 units sold | Demand trend: low
+- Budget makeup: 80 units sold | Demand trend: declining
+
+Current inventory snapshot:
+
+North Region
+- Premium skincare: 180 units on hand | 5 days cover | no incoming stock
+- Budget skincare: 420 units on hand | 18 days cover
+- Premium makeup: 350 units on hand | 10 days cover
+- Budget makeup: 500 units on hand | 32 days cover
+
+South Region
+- Premium skincare: 300 units on hand | 12 days cover
+- Budget skincare: 380 units on hand | 20 days cover
+- Premium makeup: 280 units on hand | 14 days cover
+- Budget makeup: 410 units on hand | 30 days cover
+
+East Region
+- Premium skincare: 160 units on hand | 4 days cover | 300 units delayed in transit by 7 days
+- Budget skincare: 460 units on hand | 22 days cover
+- Premium makeup: 330 units on hand | 9 days cover
+- Budget makeup: 390 units on hand | 25 days cover
+
+West Region
+- Premium skincare: 260 units on hand | 11 days cover
+- Budget skincare: 520 units on hand | 26 days cover
+- Premium makeup: 300 units on hand | 15 days cover
+- Budget makeup: 430 units on hand | 34 days cover
+
+Low-sales regional cluster
+- Premium skincare: 70 units on hand | 9 days cover
+- Budget skincare: 40 units on hand | 5 days cover | frequent stockouts
+- Premium makeup: 60 units on hand | 10 days cover
+- Budget makeup: 55 units on hand | 20 days cover
+
+Supplier and reorder settings:
+- Premium skincare: lead time 10 days | expedited option 5 days | MOQ 400 units | highest margin
+- Budget skincare: lead time 8 days | MOQ 300 units
+- Premium makeup: lead time 9 days | MOQ 250 units
+- Budget makeup: lead time 7 days | MOQ 300 units
+- Working capital should be prioritised toward high-margin and high-risk products
+
+Additional business context:
+- Premium skincare products are delayed in North and East due to replenishment issues.
+- Budget skincare products are often unavailable in low-sales regions.
+- Sales and inventory teams currently use separate spreadsheets, causing slow stock decisions.
+openai logo
+Agent
+02 Apr, 01:35
+Copy
+Reorder Priority Summary
+Highest priority (Immediate PO required)
+
+Premium Skincare – All regions (critical in North & East)
+Premium Makeup – North & East
+Medium priority (Reorder within cycle, monitor closely) 3. Premium Makeup – South & West 4. Budget Skincare – Low-sales cluster only (service stabilisation)
+
+Low priority (Defer / protect working capital) 5. Budget Skincare – Core regions 6. Budget Makeup – All regions
+
+Working capital should be directed primarily toward Premium Skincare (highest margin, rising demand, low cover, delayed supply) and selectively toward Premium Makeup in growth regions.
+
+Products Requiring Immediate Reorder
+1. Premium Skincare (Lead time 10 days | Expedited 5 days | MOQ 400 | Highest margin)
+Why urgent
+
+North: 5 days cover, rising demand, no incoming stock.
+East: 4 days cover, demand rising sharply; 300 units delayed by 7 days (stockout risk before arrival).
+South/West: 11–12 days cover, limited buffer.
+Highest margin and strongest growth category across regions.
+Assessment
+
+Current cover is below supplier lead time in key regions.
+East region will likely stock out before delayed shipment arrives.
+Strong demand momentum increases risk of lost revenue and competitor switching.
+Action
+
+Raise an expedited PO immediately (minimum 400 units, likely multi-MOQ).
+Prioritise allocation to North and East.
+Consider central buffer stock rather than purely regional replenishment.
+2. Premium Makeup (Lead time 9 days | MOQ 250)
+Why urgent (North & East)
+
+North: 10 days cover, rising demand.
+East: 9 days cover, rising demand.
+South/West stable but near lead-time threshold (14–15 days).
+Assessment
+
+Cover only marginally exceeds lead time.
+Growth in North and East suggests risk of falling below safety stock within one cycle.
+Strong commercial importance though lower margin than premium skincare.
+Action
+
+Place replenishment PO aligned to MOQ.
+Phase allocation: prioritise North and East.
+Business Impact
+If Premium Skincare Reorder Is Delayed
+Revenue loss in fastest-growing regions (especially East).
+Margin erosion due to substitution into lower-margin products.
+Brand damage in premium segment.
+Competitor switching risk high.
+Retailer relationship strain due to repeated out-of-stocks.
+This is the single largest commercial risk in Q1.
+
+If Premium Makeup Reorder Is Delayed
+Short-term service impact in North/East.
+Risk of missing momentum in growing regions.
+Moderate margin impact.
+Lower risk than skincare but still commercially sensitive.
+If Budget Skincare Reorder Is Delayed
+Core regions: minimal impact (18–26 days cover, stable/falling demand).
+Low-sales cluster: continued frequent stockouts, but low volume and margin impact.
+Working capital risk if over-ordered in declining regions.
+If Budget Makeup Reorder Is Delayed
+No material risk.
+Demand falling in most regions.
+High stock cover (25–34 days).
+Reordering now would tie up working capital unnecessarily and increase obsolescence risk.
+Recommended Next Actions
+Immediate (Next 7 Days)
+Place expedited PO for Premium Skincare (minimum 400–800 units) and standard PO for Premium Makeup.
+Reallocate any available central or slow-region stock to North and East before new stock arrives.
+Medium-Term (Next 30 Days)
+Implement a basic integrated stock and demand dashboard combining sales and inventory data to replace spreadsheet silos.
+Establish category-level safety stock aligned to supplier lead times (minimum 1.5× lead time cover for premium lines).
+Critical Coordination Issue
+Procurement, Sales, and Inventory teams must align on:
+
+One agreed demand forecast and stock cover metric
+Clear ownership of reorder triggers (lead time vs. days cover vs. trend-based adjustment)
+Currently, disconnected spreadsheets are delaying decisions and increasing stockout risk in high-margin categories.
+
+Management Takeaway
+Fund and expedite Premium Skincare immediately.
+Support Premium Makeup in growth regions.
+Pause or delay Budget Makeup and most Budget Skincare purchases to protect working capital.
+Fix cross-team visibility to prevent repeated reactive ordering.
+The main risk to Q1 performance is under-supporting premium growth while holding excess budget inventory.
